@@ -1,13 +1,8 @@
-<<<<<<< HEAD
+
 # Java Socket 前后端项目 Demo
 
 一个简单的Java前后端应用Demo，使用Socket进行通信，SQLite作为数据库，具有增删查改功能，不使用任何框架，供以参考，有问题可以提交issues。
-=======
-# Java Socket 前后端项目
-
-一个简单的Java前后端应用，使用Socket进行通信，SQLite作为数据库，具有增删查改功能，不使用任何框架，供以参考，有问题可以提交issues。
->>>>>>> 4a079bf76700fae3952e55b5616ffcd8231c8d6c
-这是我大二下小学期的作业。
+<p>这是我大二下小学期的作业。
 特别鸣谢小学期王全新老师。
 
 ## 项目结构
@@ -21,7 +16,6 @@ java-socket-user-management/
 │   └── server/
 │       ├── SocketServer.java       # Socket服务器
 │       ├── DatabaseManager.java    # 数据库管理
-<<<<<<< HEAD
 │       └── User.java               # 用户实体类
 ├── lib/
 │   └── sqlite-jdbc-3.42.0.0.jar    # SQLite数据库驱动
@@ -30,13 +24,6 @@ java-socket-user-management/
 └── compile.sh                      # 编译脚本
 └── run_client.sh                   # 运行客户端脚本
 └── run_server.sh                   # 运行服务端脚本
-=======
-│       └── User.java              # 用户实体类
-├── lib/
-│   └── sqlite-jdbc-3.42.0.0.jar   # SQLite数据库驱动
-├── database/
-│   └── app.db                      # SQLite数据库文件
->>>>>>> 4a079bf76700fae3952e55b5616ffcd8231c8d6c
 └── README.md
 ```
 
@@ -123,7 +110,3 @@ java client.ClientGUI
 - 对象null 可能是局部重复声明了，导致其他地方的对象null
 - `./run_server.sh` 与 `sh ./run_server.sh`
 
-
-
-=======
->>>>>>> 4a079bf76700fae3952e55b5616ffcd8231c8d6c
